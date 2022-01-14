@@ -9,4 +9,7 @@ Alphabet Soup Company has requested the team to analyze 34,000 organizations and
 
  3) Optimization for Model.
  
+ Resources:
  
+ Data File:  charity_csv.
+ Software:  Python 3.7.1, Pandas 1.2.4
