@@ -13,3 +13,7 @@ Alphabet Soup Company has requested the team to analyze 34,000 organizations and
  
  Data File:  charity_csv.
  Software:  Python 3.7.1, Pandas 1.2.4
+ 
+ ## Data Preprocessing
+ 
+ Preprocessing included dropping the variables EIN and Name that were not needed for the analysis.  The features "Application_Type" and "Classification" were preprocessed to create appropriate binning of the contained values.
