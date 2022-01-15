@@ -46,19 +46,23 @@ Three additional models were created to optimize the model and see if accurracy 
 ## Optimization of Model Results
 
 Optimization Model 1 
+
 A 3rd layer was added to the original model with 2 neurons and the activation for that layer was "relu".
 
 ![image](https://user-images.githubusercontent.com/89953246/149604325-027932a3-3854-4e6a-918d-6f7465d8d523.png)
 
 Optimization Model 2
+
 Additional neurons (30, 45) were added to the original model's two layers.
 
 ![image](https://user-images.githubusercontent.com/89953246/149604386-80284fa8-522a-46bc-b0d8-4edb274986a2.png)
 
 Optimization Model 3
+
 The activation for both hidden layers were changed to "tanh" with output layer changed to "relu".
 
 ![image](https://user-images.githubusercontent.com/89953246/149604488-f9596719-1dbe-4b6c-bc68-4f0e7550d254.png)
 
 ## Summary
+
 The overall accuracy of the original model and the optimzation models remained at 73%. Further models could be created using the deep learning approach by changing the binning preprocess or continue exploring hidden layers and number of neurons.  Another possibility is to complare current resuls with Logistic Regression or RandomForest model. 
