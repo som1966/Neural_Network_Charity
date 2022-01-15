@@ -36,9 +36,27 @@ Preprocessed data was split into features based on "IS_SUCCESSFUL".
 
 ## Compile, Train and Evaluate Model
 
-The original model had two hidden layers with 10 and 5 neurons, respectively.  The Rectified Linear Unit("relu" was used for both the 1st and 2nd layer; thad "sigmoid" for the out put layer. The model achieved 73% accuracy.
+The original model had two hidden layers with 10 and 5 neurons, respectively.  The Rectified Linear Unit ("relu") was used for both the 1st and 2nd layer; thad "sigmoid" for the out put layer. The model achieved 73% accuracy.
 
 ![image](https://user-images.githubusercontent.com/89953246/149604124-a0ed71cf-fe44-4fe7-9c25-2247e21d00f0.png)
 
+Three additional models were created to optimize the model and see if accurracy could be increased to 75%.
+
+## Optimization of Model Results
+
+Optimization Model 1 
+A 3rd layer was added to the original model with 2 neurons and the activation for that layer was "relu".
+
+![image](https://user-images.githubusercontent.com/89953246/149604325-027932a3-3854-4e6a-918d-6f7465d8d523.png)
+
+Optimization Model 2
+Additional neurons (30, 45) were added to the original model's two layers.
+
+![image](https://user-images.githubusercontent.com/89953246/149604386-80284fa8-522a-46bc-b0d8-4edb274986a2.png)
+
+Optimization Model 3
+The activation for both hidden layers were changed to "tanh" with output layer changed to "relu".
+
+![image](https://user-images.githubusercontent.com/89953246/149604488-f9596719-1dbe-4b6c-bc68-4f0e7550d254.png)
 
 
