@@ -65,4 +65,4 @@ The activation for both hidden layers were changed to "tanh" with output layer c
 
 ## Summary
 
-The overall accuracy of the original model and the optimzation models remained at 73%. Further models could be created using the deep learning approach by changing the binning preprocess or continue exploring hidden layers and number of neurons.  Another possibility is to complare current resuls with Logistic Regression or RandomForest model. 
+The overall accuracy of the original model and the optimzation models remained at 73%. Further models could be created using the deep learning approach by changing the binning preprocess or continue exploring hidden layers and number of neurons.  It would be recommended to do a comparision with the current resuls against a Logistic Regression or RandomForest model. 
