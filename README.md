@@ -36,7 +36,8 @@ Preprocessed data was split into features based on "IS_SUCCESSFUL".
 
 ## Compile, Train and Evaluate Model
 
-The original model had two hidden layers with 10 and 5 neurons, respectively.  The Rectified Linear Unit ("relu") was used for both the 1st and 2nd layer; thad "sigmoid" for the out put layer. The model achieved 73% accuracy.
+The original model had two hidden layers with 10 and 5 neurons, respectively.  The Rectified Linear Unit ("relu") was used for both the 1st and 2nd layer; "sigmoid" for the 
+output layer. The model achieved 73% accuracy.
 
 ![image](https://user-images.githubusercontent.com/89953246/149604124-a0ed71cf-fe44-4fe7-9c25-2247e21d00f0.png)
 
